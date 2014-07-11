@@ -3,3 +3,9 @@ jin:
  last_name: "Huang"
  email: "huang_jin_han@hotmail.com"
  profile_name: "oec0710"
+
+jim:
+ first_name: "Jim"
+ last_name: "karlsson"
+ email: "1@hotmail.com"
+ profile_name: "jim_1"
