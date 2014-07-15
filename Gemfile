@@ -6,11 +6,16 @@ gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
 
 gem 'devise'
-gem "simple_form"
+gem 'simple_form'
 
 group :development, :test do
-	gem'sqlite3'
+	gem 'sqlite3'
 end
+
+group :production do
+	gem 'pg'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
